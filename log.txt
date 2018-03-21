@@ -1,0 +1,5 @@
+commit b5618eb6fd8c532856f4dba790c84f2fd7d300ce
+Author: Dimitar Dimiskov <dimitar.dimiskov@finki.ukim.mk>
+Date:   Wed Mar 21 17:28:48 2018 +0100
+
+    Initial commit
