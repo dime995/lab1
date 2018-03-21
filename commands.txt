@@ -1,0 +1,75 @@
+    1  git config --global user.name "Dimitar Dimiskov"
+    2  git config --global user.name "Dimitar Dimiskov"
+    3  git config --global user.email dimitar.dimiskov@finki.ukim.mk
+    4  git config --global color.ui true
+    5  mkdir lab1
+    6  cd lab1
+    7  git init
+    8  cat > l1.txt
+    9  ls
+   10  git config --global user.name "Dimitar Dimiskov"
+   11  git config --global user.email dimitar.dimiskov@finki.ukim.mk
+   12  git config --global color.ui true
+   13  mkdir lab1
+   14  ls
+   15  cd lab1
+   16  ls
+   17  nano l1.txt
+   18  cat l1.txt
+   19  git commit -m "Initial commit"
+   20  git status
+   21  git add --all
+   22  ls
+   23  git status
+   24  git commit -m "Initial commit"
+   25  git log
+   26  nano l1.txt
+   27  cat l1.txt
+   28  git status
+   29  git add --all
+   30  git status
+   31  git commit -m "modify l1.txt"
+   32  git remote add origin https://github.com/dime995/lab1.git
+   33  git push -u origin master
+   34  nano l1.txt
+   35  git status
+   36  git reset --hard HEAD^
+   37  git branch
+   38  git branch logging
+   39  git branch
+   40  git checkout logging
+   41  touch log.txt
+   42  ls
+   43  git log
+   44  git log > log.txt
+   45  cat log.txt
+   46  git status
+   47  git add log.txt
+   48  git status
+   49  git status
+   50  git push 
+   51  git commit -m "Create new file"
+   52  git status
+   53  git push
+   54  ls 
+   55  git branch
+   56  git push -u origin logging
+   57  git fetch
+   58  git rebase master
+   59  git checkout master
+   60  git merge logging
+   61  ls
+   62  git staus
+   63  git status
+   64  git push 
+   65  git pull
+   66  git fetch
+   67  git merge origin/master
+   68  git push
+   69  git status
+   70  git branch
+   71  git branch allcomands
+   72  git branch
+   73  git checkout allcomands
+   74  touch commands.txt
+   75  history > commands.txt
